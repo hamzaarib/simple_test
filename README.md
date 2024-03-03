@@ -1,2 +1,2 @@
 # simple_test
-[GitHub Pages](https://pages.github.com/)
+[Simple_test](https://hamzaarib.github.io/simple_test/)

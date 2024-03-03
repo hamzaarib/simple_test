@@ -1,8 +1,10 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
-header{height: 625px;
+header{
+    height: 625px;
     background-image: url("../images/bab.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -11,7 +13,7 @@ header{height: 625px;
 .container{
     background: orangered;
     width: 37%;
-    height: 70%;
+    min-height: 70%;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -62,8 +64,7 @@ article{
 }
 .footer a{
     color: white;
-}
-
+}   
 @media screen and (max-width:700px) {
     header{
         height: 614px;
@@ -72,13 +73,12 @@ article{
     .container{
         margin: 0 100px;
         padding: 40px;
-        height: 50%;
         width: 50%; 
     }
     .container h1{
-       font-size: 40px; 
-       margin: 0;
-       padding-bottom: 10px;  
+        font-size: 40px; 
+        margin: 0;
+        padding-bottom: 10px;  
     }
     .container p{
         margin: 0;
@@ -102,13 +102,12 @@ article{
     .container{
         margin: 0 100px;
         padding: 40px;
-        height: 50%;
         width: 50%; 
     }
     .container h1{
-       font-size: 40px; 
-       margin: 0;
-       padding-bottom: 10px; 
+        font-size: 40px; 
+        margin: 0;
+        padding-bottom: 10px; 
     }
     .container p{
         margin: 0;
